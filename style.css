@@ -22,7 +22,6 @@ body {
     left: 674px;
     margin: 0 50px;
     margin-top: 71px;
-    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -30,6 +29,7 @@ body {
     color: #7D7D7D;
     display: flex;
     justify-content:center;
+    font-family: 'Roboto', sans-serif;;
 }
 .navtext:hover {
     cursor: pointer;
@@ -70,10 +70,10 @@ main {
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
+    row-gap: 100px;
+    column-gap: 60px;
 }
-main>div {
-    margin: 65px 32.5px;
-}
+
 .card1,
 .card2 {
     margin-top: 91px;
@@ -85,7 +85,7 @@ main>div {
     width: 64px;
     height: 16px;
     
-    font-family: 'Ubuntu';
+    font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -163,4 +163,7 @@ main>div {
 .button1:hover {
     cursor: pointer;
 
+}
+.navtext2 {
+    font-family: 'Roboto', sans-serif;;
 }
